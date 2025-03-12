@@ -54,7 +54,7 @@ body {
   max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  overflow: scroll;
+  overflow: visible;
   position: relative;
 }
 
@@ -138,7 +138,6 @@ body {
 .list {
   list-style: none;
   padding: 0.8rem 0;
-  overflow: scroll;
 }
 
 .list-watched {
@@ -160,6 +159,7 @@ body {
 
 .list.list-movies li {
   cursor: pointer;
+  overflow: hidden;
   transition: all 0.3s;
 }
 
